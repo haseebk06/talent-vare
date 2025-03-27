@@ -1,3 +1,3 @@
 # Talent Vare
 
-[Talent Vare](https://github.com/facebook/create-react-app).
+[Talent Vare](https://talentvare-ruby.vercel.app/).
