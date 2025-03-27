@@ -1,0 +1,32 @@
+.job-card {
+    width: 12.5rem; /* 200px */
+    background-color: var(--talent-white);
+    border-radius: 0.625rem; /* 10px */
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    border: 0.0625rem solid var(--talent-white); /* 1px */
+    margin-bottom: 1.25rem; /* 20px */
+}
+
+.card-top-text {
+    font-size: 0.625rem; /* 10px */
+    font-weight: 600;
+    color: var(--talent-text-primary);
+    margin: 0;
+    margin-bottom: 0.3125rem; /* 5px */
+}
+
+.job-title-text {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    color: var(--talent-text-primary);
+    margin: 0;
+}
+
+.teams-text {
+    font-size: 0.75rem; /* 12px */
+}
+
+.btn-save {
+    background-color: transparent;
+    border: none;
+}

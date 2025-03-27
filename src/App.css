@@ -1,0 +1,66 @@
+:root {
+    --talent-primary: #0154AA;
+    --talent-text-secondary: #585D6E;
+    --talent-text-primary: #333333;
+    --talent-text-feild: #F6F9FF;
+    --talent-text-header: #737A91;
+    --talent-bg: #f4f4f4;
+    --talent-white: #fff;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--talent-bg);
+}
+
+.text-talent-primary {
+    color: var(--talent-primary);
+}
+
+/* ::-webkit-scrollbar {
+    background: var(--tarlent-bg);
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--tarlent-bg);
+    border-radius: 5rem;
+} */
+
+@font-face {
+    font-family: talentVare Sans Roman;
+    src: url("assets/fonts/neue/NeueHaasDisplayRoman.ttf");
+}
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 11px;
+    }
+}

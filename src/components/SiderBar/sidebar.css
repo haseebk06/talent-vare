@@ -1,0 +1,112 @@
+.sidebar {
+    margin-top: 1.5625rem;
+    position: sticky;
+    top: .5rem;
+}
+
+.sidebar-user-info {
+    border-radius: 0.625rem; /* 10px */
+    border: 0.0625rem solid var(--talent-white); /* 1px */
+    background-color: var(--talent-white);
+    color: var(--talent-text-primary);
+    font-family: talentVare Sans Roman, sans-serif;
+    margin-bottom: 0.625rem; /* 10px */
+}
+
+.profile-card-bg {
+    border-radius: 0.625rem 0.625rem 0 0; /* 10px 10px 0 0 */
+    width: 100%;
+}
+
+.user-profile {
+    width: 5.375rem; /* 86px */
+    height: 5.375rem; /* 86px */
+    border-radius: 50%;
+    border: 0.125rem solid var(--talent-white); /* 2px */
+}
+
+.user-info {
+    position: relative;
+    top: -2.6875rem; /* -43px */
+}
+
+.user-details {
+    text-align: center;
+}
+
+.user-name {
+    font-size: 1.125rem; /* 18px */
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.user-role {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.user-loc {
+    font-size: 0.75rem; /* 12px */
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--talent-text-secondary);
+}
+
+.sidebar-user-stats {
+    border-radius: 0.625rem; /* 10px */
+    border: 0.0625rem solid var(--talent-white); /* 1px */
+    background-color: var(--talent-white);
+    color: var(--talent-text-primary);
+    padding: 1.25rem; /* 20px */
+    font-family: talentVare Sans Roman, sans-serif;
+    margin-bottom: 0.625rem; /* 10px */
+}
+
+.sidebar-user-stats ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-user-stats li {
+    padding: 0.3125rem 0; /* 5px 0 */
+}
+
+.user-stats-name {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--talent-text-secondary);
+}
+
+.user-stats-number {
+    font-size: 1rem; /* 16px */
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--talent-primary);
+}
+
+.sidebar-user-calendar {
+    border-radius: 0.625rem; /* 10px */
+    border: 0.0625rem solid var(--talent-white); /* 1px */
+    background-color: var(--talent-white);
+    color: var(--talent-text-primary);
+    padding: 0.625rem; /* 10px */
+    font-family: talentVare Sans Roman, sans-serif;
+    margin-bottom: 0.625rem; /* 10px */
+}
+
+.calendar-text {
+    font-size: 1rem; /* 16px */
+    font-weight: 600;
+    margin-bottom: 0;
+    color: var(--talent-text-primary);
+}
+
+.interviews-text {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--talent-text-secondary);
+}
