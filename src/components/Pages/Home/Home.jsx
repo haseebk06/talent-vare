@@ -19,7 +19,8 @@ const Home = () => {
           <div className="job-search">
             <Row>
               <Col md={6}>
-                <p className="job-search-text h-100 d-flex align-items-center">Job Title, Company, or Keywords</p>
+                {/* <p className="job-search-text h-100 d-flex align-items-center">Job Title, Company, or Keywords</p> */}
+                <input type="text" name="" className="job-search-text h-100 d-flex align-items-center w-100 border-0" placeholder="Job Title, Company, or Keywords"/>
               </Col>
               <Col md={6}>
                 <Row>

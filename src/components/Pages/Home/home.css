@@ -27,6 +27,7 @@
     font-weight: 500;
     color: var(--talent-text-secondary);
     margin: 0;
+    outline: none;
 }
 
 .job-select-box {
